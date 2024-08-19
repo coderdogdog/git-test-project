@@ -38,12 +38,14 @@
 
 ### git分支操作
 
-| 代码                | 指令                       |
-| ------------------- | -------------------------- |
-| git branch 分支名   | 创建分支                   |
-| git branch -v       | 查看分支                   |
-| git checkout 分支名 | 切换分支                   |
-| git merge 分支名    | 把指定分支合并到当前分支上 |
+| 代码                         | 指令                       |
+| ---------------------------- | -------------------------- |
+| git branch 分支名            | 创建分支                   |
+| git branch -v                | 查看分支                   |
+| git checkout 分支名          | 切换分支                   |
+| git merge 分支名             | 把指定分支合并到当前分支上 |
+| git branch -d feature-branch | 删除已合并的分支           |
+| git branch -D feature-branch | 强制删除未合并的分支       |
 
 
 
