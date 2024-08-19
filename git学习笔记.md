@@ -102,3 +102,47 @@ IdentityFile ~/.ssh/id_rsa
 
 ```
 
+
+
+### 配置git环境
+
+忽略文件类型
+
+用户家文件夹
+
+git.ignore
+
+```
+# * + 文件后缀
+*.log
+
+*.idea
+*.xml
+*.iml
+
+```
+
+在`.gitconfig` 文件中引用一下（注意用正斜线 “/”）
+
+```
+[user]
+	name = HenryNan
+	email = coder_dog@163.com
+[http]
+	sslVerify = true
+[core]
+	excludesfile = C:/Users/Hongrui/git.ignore
+
+```
+
+### pycharm使用Git
+
+1. 配置版本控制的Git程序
+2. 打开VCS，导入版本控制，创建本地库
+3. 先Add加入暂存区    `Ctrl + Alt + A`
+4. 后Commit提交，对于之前add过的文件，可以直接提交
+
+
+
+
+
