@@ -15,7 +15,6 @@
 | git reflog                              | 查看精简版本信息 |
 | git log                                 | 查看详细版本信息 |
 | git reset --hard 版本号                 | **版本穿越**     |
-|                                         |                  |
 
 
 
@@ -34,7 +33,6 @@
 | cat hello.txt       | 查看文件内容       |
 | tail -n 1 hello.txt | 查看末尾最后一行   |
 | I                   | 进入txt文件修改    |
-|                     |                    |
 
 
 
@@ -46,8 +44,6 @@
 | git branch -v       | 查看分支                   |
 | git checkout 分支名 | 切换分支                   |
 | git merge 分支名    | 把指定分支合并到当前分支上 |
-|                     |                            |
-|                     |                            |
 
 
 
